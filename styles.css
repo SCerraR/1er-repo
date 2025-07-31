@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(223, 76, 8);
+}
+h1 {
+  color: rgb(255, 153, 0);
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+  color: yellow;
+}
