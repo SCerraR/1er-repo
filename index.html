@@ -10,5 +10,22 @@
     <h1>Cryptids alrededor del Mundo</h1>
     <p>Recopilacion de los animales Criptozoologos mas interesantes del globo</p>
     <img src="ctp.jpg">
+    <button id="miBoton">Cryptid</button>
+    <p id="textoAleatorio">cryptids aleatorios</p>
+    <script>
+        const textos = [
+            "Nessy",
+            "Big Foot",
+            "Chupacabras",
+            "Devil of New Jersey",
+            "La Llorona",
+            "SkinWalker",
+            "MothMan"
+        ];
+        document.getElementById('miBoton').onclick = function() {
+            const idx = Math.floor(Math.random() * textos.length);
+            document.getElementById('textoAleatorio').textContent = textos[idx];
+        };
+    </script>
 </body>
 </html>

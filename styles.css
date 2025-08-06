@@ -12,4 +12,11 @@ img {
 p {
   text-align: center;
   color: yellow;
+  font-size: 1.5em;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.2em;
+  padding: 10px 30px;
 }
